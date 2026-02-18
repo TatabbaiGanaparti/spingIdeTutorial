@@ -8,8 +8,9 @@ public class HelloWorldController{
 
 @GetMapping("/")
 public String getWelcome(){
-    return "Hello World";
+    return "Hello World to Nani";
 }
+
 
 @GetMapping("/name")
 public String getName(){
